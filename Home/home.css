@@ -1,0 +1,43 @@
+body, html {
+	height: 100%;
+}
+
+
+.jumbotron {
+	background: url(../Assets/home.jpg); 
+		  /* Full height */
+	  height: 100%;
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+.rainbow {
+    background: red;
+    background: -webkit-linear-gradient(left, red , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(left, red, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(left, red, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, red , yellow, green, cyan, blue, violet);
+	background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.curvy {
+	border-radius: 5em;
+	position: relative;
+    top: 5%;
+   	background-color: green;
+   	border-color: green;
+   	padding: 10px 20px 10px 20px;
+}
+
+.navbar .navbar-nav {
+  width: 100%;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
