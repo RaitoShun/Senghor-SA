@@ -57,7 +57,8 @@ body, html {
 
 .shrink {
   width: 150px;
-
+  margin-right: 3rem;
+  margin-left: 3em;
 }
 
 .footer ul li{
