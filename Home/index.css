@@ -1,6 +1,6 @@
 
 
-.jumbotron {
+.mainpage {
 	background: url(../Assets/home.jpg); 
   height: 100% !important;
 }
@@ -75,13 +75,24 @@
   margin-bottom: 50px;
 }
 
-/* Container Border */
-.partners {
-border: 12px solid gray;
-border-radius: 10px;
-margin-top: 15px;
-margin-bottom: 15px;
+.shrink{
+  transition: all .4s ease-in;
 }
+
+.shrink:hover{
+  transform: scale(1.12);
+}
+
+.partners{
+  background-color: white;
+}
+
+.jumbotron .container{
+  position: relative;
+  top: 35%;
+
+}
+
 
 
 
