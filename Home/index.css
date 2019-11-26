@@ -75,18 +75,14 @@
   position: relative;
   top: 20%;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .dadnfo .right{
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 /* Container Border */
 .partners {
-  margin-top: 15px;
-  margin-bottom: 15px;
   background-color: white;
 }
 
@@ -100,7 +96,7 @@
   transform: scale(1.12);
 }
 
-.jumbotron .prtsr{
+.jumbotron .prts{
   position: relative;
   top: 35%;
 
