@@ -10,14 +10,19 @@
     background: -o-linear-gradient(left, red, yellow, green, cyan, blue, violet);
     background: -moz-linear-gradient(left, red, yellow, green, cyan, blue, violet);
     background: linear-gradient(to right, red , yellow, green, cyan, blue, violet);
-	background-size: 100%;
+	  background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3em;
     font-weight: bold;
 }
 
-
+.curvy {
+    position: relative;
+    top: 7%;
+    background-color: green;
+    border-color: green;
+}
 .text-elements{
   position: relative;
   top: 35%;
