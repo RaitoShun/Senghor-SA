@@ -45,3 +45,11 @@ body, html {
   width: 100%;
   margin: 0;
 }
+
+.navbar img{
+	transition: all .4s ease-in;
+}
+
+.navbar img:hover{
+	transform: scale(1.05);
+}
