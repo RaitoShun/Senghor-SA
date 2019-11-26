@@ -59,6 +59,25 @@
   background-color: black;
 }
 
+.dadnfo{
+  height: 100%;
+  font-size: 0.9em;
+  padding-top: 50px;
+}
+
+.dadnfo .left{
+  position: relative;
+  top: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.dadnfo .right{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
 
 
 

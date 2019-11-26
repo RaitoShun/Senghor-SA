@@ -77,3 +77,11 @@ body, html {
 .footer .fa:hover{
 	transform: scale(1.12);
 }
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
