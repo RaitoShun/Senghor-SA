@@ -44,6 +44,11 @@ body, html {
   font-size: 1.2em;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
 .navbar{
   position: fixed;
   width: 100%;
@@ -56,6 +61,7 @@ body, html {
   font-size: 1.1em;
 }
 
+<<<<<<< HEAD
 .outline-basic {
   text-shadow:
      -1px -1px 0 #000,  
@@ -82,4 +88,6 @@ body, html {
     }
 }
 
+=======
+>>>>>>> 31d4f8580ac514f63e8e50afedcb4774b90c401a
 
