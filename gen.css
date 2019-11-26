@@ -54,3 +54,8 @@ body, html {
 .navbar img:hover{
 	transform: scale(1.05);
 }
+
+.shrink {
+  width: 150px;
+
+}
