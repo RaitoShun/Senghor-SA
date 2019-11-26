@@ -5,6 +5,10 @@ body, html {
     scroll-behavior: smooth;
 }
 
+a{
+  text-decoration: none;
+}
+
 .jumbotron {
 	height: 50%;
 	background-position: center;
