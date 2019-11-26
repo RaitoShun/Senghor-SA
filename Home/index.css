@@ -56,12 +56,19 @@
     }
 }
 
+.colorcng{
+  height: 100% !important;
+  background-color: rgba(200,200,200,0.5);
+  background-position: none;
+  background-repeat: none;
+  background-size: none;
+}
 
 .dadnfo{
+  padding-top: 80px;
   height: 100%;
   font-size: 0.9em;
-  padding-top: 50px;
-  box-shadow: 0px 2px grey;
+  box-shadow: 0px 10px grey;
 }
 
 .dadnfo .left{
@@ -69,7 +76,6 @@
   top: 20%;
   margin-top: 50px;
   margin-bottom: 50px;
-  z-index: 2;
 }
 
 .dadnfo .right{
@@ -79,9 +85,9 @@
 
 /* Container Border */
 .partners {
-  border-radius: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+  background-color: white;
 }
 
 .shrink{
@@ -92,11 +98,7 @@
   transform: scale(1.12);
 }
 
-.partners{
-  background-color: white;
-}
-
-.jumbotron .container{
+.jumbotron .prtsr{
   position: relative;
   top: 35%;
 
