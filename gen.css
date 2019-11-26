@@ -15,10 +15,6 @@ body, html {
 
 .curvy {
 	border-radius: 5em;
-	position: relative;
-    top: 7%;
-   	background-color: green;
-   	border-color: green;
    	padding: 10px 20px 10px 20px;
 }
 
