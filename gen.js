@@ -1,4 +1,4 @@
-    const triggers = document.querySelectorAll('a'); // find every link
+    const triggers = document.querySelectorAll('.nav-link'); // find every link
     const highlight = document.createElement('span'); // create the span the will highlight
     highlight.classList.add('highlight');
     document.body.append(highlight);
@@ -12,8 +12,8 @@
       const coords = { // compensate for scrolling
         width: linkCoords.width,
         height: linkCoords.height,
-        top: linkCoords.top + window.scrollY,
-        left: linkCoords.left + window.scrollX
+        top: linkCoords.top,
+        left: linkCoords.left
       };
       highlight.style.width = `${coords.width}px`
       highlight.style.height = `${coords.height}px`
