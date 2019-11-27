@@ -18,6 +18,20 @@ a{
   margin: 0;
 }
 
+/*rainbow coloured text*/
+.rainbow {
+    background: red;
+    background: -webkit-linear-gradient(left, red , yellow, green, #0099ff,indigo, violet); /*lighter blue*/
+    background: -o-linear-gradient(left, red, yellow, green, #0099ff, indigo, violet);
+    background: -moz-linear-gradient(left, red, yellow, green, #0099ff, indigo, violet);
+    background: linear-gradient(to right, red , yellow, green, #0099ff,indigo, violet);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 .curvy {
 	border-radius: 5em;
   padding: 10px 20px 10px 20px;
