@@ -7,29 +7,33 @@
 
 .rainbow {
     background: red;
-    background: -webkit-linear-gradient(right, red , yellow, green, cyan, blue, violet);
-    background: -o-linear-gradient(right, red, yellow, green, cyan, blue, violet);
-    background: -moz-linear-gradient(right, red, yellow, green, cyan, blue, violet);
-    background: linear-gradient(to left, red , yellow, green, cyan, blue, violet);
-	  background-size: 100%;
+    background: -webkit-linear-gradient(right, red , yellow, green, blue,indigo, violet);
+    background: -o-linear-gradient(right, red, yellow, green, blue, indigo, violet);
+    background: -moz-linear-gradient(right, red, yellow, green, blue, indigo, violet);
+    background: linear-gradient(to left, red , yellow, green, blue,indigo, violet);
+	  background-size: font-size;
+    background-repeat: no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3em;
     font-weight: bold;
 }
 
+/*button with curved edges*/
 .curvy {
     position: relative;
     top: 7%;
-    background-color: green;
-    border-color: green;
+    background-color: #00cc00; /*light lime*/
+    border-color: #33cc33; /*darker lime*/
 }
+
+/*main title*/
 .text-elements{
   position: relative;
   top: 35%;
   font-size: 1.1em;
 }
-
+/*outline regulat text*/
 .outline-basic {
   text-shadow:
      -1px -1px 0 #000,  
@@ -37,7 +41,7 @@
     -1px 1px 0 #000,
      1px 1px 0 #000
 }
-
+/*outline transparent text*/
 .outline {
     color: black;
     text-shadow:
@@ -75,15 +79,21 @@
   position: relative;
   top: 20%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .dadnfo .right{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Container Border */
 .partners {
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: white;
+  color: #669999; /*greyish blue font*/
+
 }
 
 .shrink{
