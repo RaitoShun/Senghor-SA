@@ -12,4 +12,41 @@ body, html {
 	font-size: 5em;
 }
 
+.intro{
+	background: black !important;
+	color: white;
+	height: 20% !important;
+}
+
+.dadcont{
+	padding-top: 3em;
+	padding-bottom: 3em
+}
+
+.intro h1{
+	position: static;
+}
+
+.manual{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.messaging{
+	width: 100%;
+
+}
+
+.rainbow {
+    background: red;
+    background: -webkit-linear-gradient(right, red , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, red, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, red, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to left, red , yellow, green, cyan, blue, violet);
+	background-size: 60%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+}
 
