@@ -5,12 +5,13 @@
   height: 100% !important;
 }
 
+/*rainbow coloured text*/
 .rainbow {
     background: red;
-    background: -webkit-linear-gradient(right, red , yellow, green, blue,indigo, violet);
-    background: -o-linear-gradient(right, red, yellow, green, blue, indigo, violet);
-    background: -moz-linear-gradient(right, red, yellow, green, blue, indigo, violet);
-    background: linear-gradient(to left, red , yellow, green, blue,indigo, violet);
+    background: -webkit-linear-gradient(left, red , yellow, green, #0099ff,indigo, violet); /*lighter blue*/
+    background: -o-linear-gradient(left, red, yellow, green, #0099ff, indigo, violet);
+    background: -moz-linear-gradient(left, red, yellow, green, #0099ff, indigo, violet);
+    background: linear-gradient(to right, red , yellow, green, #0099ff,indigo, violet);
 	  background-size: font-size;
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -22,9 +23,15 @@
 /*button with curved edges*/
 .curvy {
     position: relative;
-    top: 7%;
     background-color: #00cc00; /*light lime*/
     border-color: #33cc33; /*darker lime*/
+    margin-top: 20px;
+}
+
+.curvy:hover {
+    background-color: lime; /*light lime*/
+    border-color: #33cc33; /*darker lime*/
+    transform: scale(1.02);
 }
 
 /*main title*/
@@ -60,7 +67,8 @@
     }
 }
 
-.colorcng{
+/*dad's bio*/
+.color-dad-info{
   height: 100% !important;
   background-color: rgba(200,200,200,0.5);
   background-position: none;
@@ -68,49 +76,34 @@
   background-size: none;
 }
 
-.dadnfo{
+.dad-info{
   padding-top: 80px;
   height: 100%;
   font-size: 0.9em;
   box-shadow: 0px 10px grey;
 }
 
-.dadnfo .left{
+.dad-info .left{
   position: relative;
   top: 20%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.dadnfo .right{
+.dad-info .right{
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-/* Container Border */
+/* parnters card */
 .partners {
-  margin-top: 15px;
-  margin-bottom: 15px;
   background-color: white;
   color: #669999; /*greyish blue font*/
-
+  background-size: cover;
+  padding-bottom: 60px;
 }
 
-.shrink{
-  transition: all .4s ease-in;
-  margin: 0;
-  padding: 0;
-}
 
-.shrink:hover{
-  transform: scale(1.12);
-}
-
-.jumbotron .prts{
-  position: relative;
-  top: 35%;
-
-}
 
 
 
