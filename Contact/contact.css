@@ -13,23 +13,18 @@ body, html {
 }
 
 .intro{
-	background: black !important;
-	color: white;
+	background: white !important;
+	color: black;
 	height: 20% !important;
 }
 
 .dadcont{
-	padding-top: 3em;
-	padding-bottom: 3em
+	padding-top: 3.5em;
+	padding-bottom: 3.52em;
 }
 
 .intro h1{
 	position: static;
-}
-
-.manual{
-	margin-top: 3em;
-	margin-bottom: 3em;
 }
 
 .messaging{
@@ -48,5 +43,20 @@ body, html {
     -webkit-text-fill-color: transparent;
     font-size: 3em;
     font-weight: bold;
+}
+
+.cards{
+	height: 100%;
+	padding-top: 3em;
+}
+
+.card{
+	transition: .2s all ease-in;
+}
+
+.card:hover{
+	transform: scale(1.02);
+	z-index: 2;
+	box-shadow: 1px 1px 10px 2px grey;
 }
 
