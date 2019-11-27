@@ -8,7 +8,6 @@
     function highlightLink() {
 
       const linkCoords = this.getBoundingClientRect();
-      console.log(this);
       const coords = { // compensate for scrolling
         width: linkCoords.width,
         height: linkCoords.height,

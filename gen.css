@@ -20,9 +20,10 @@ a{
 
 .curvy {
 	border-radius: 5em;
-   	padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
+/*black line that follows links*/
 .highlight {
   transition: all .3s;
   cursor: pointer;
@@ -60,10 +61,16 @@ a{
 	transform: scale(1.05);
 }
 
+/*standardize image size*/
 .shrink {
   width: 150px;
   margin-right: 3rem;
   margin-left: 3em;
+  transition: all .4s ease-in;
+}
+
+.shrink:hover{
+  transform: scale(1.12);
 }
 
 .footer ul li{
@@ -94,4 +101,8 @@ a{
 
 .footer {
   background-color: black;
+}
+
+.shrink:hover{
+  transform: scale(1.12);
 }
