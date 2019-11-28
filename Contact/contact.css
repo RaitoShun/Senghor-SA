@@ -13,16 +13,22 @@ body, html {
 }
 
 .intro{
-	background: white !important;
-	color: black;
+	background: black !important;
+	color: white;
 	height: 20% !important;
+	position: relative;
+	animation-name: slide;
+	animation-duration: 1s;
 }
+
 /*Left cards*/
 .dadcont{
 	padding-top: 3.5em;
 	padding-bottom: 3.52em;
 	transition: .2s all ease-in;
+	animation-name: slide;
 }
+
 /*For the Let's connect shtick*/
 .intro h1{
 	position: static;
@@ -36,6 +42,7 @@ body, html {
 /*Card containing manual messaging*/
 .manual{
 	border: none;
+	animation-name: slide-r;
 }
 
 /*container for both cards*/
@@ -44,9 +51,36 @@ body, html {
 	padding-top: 3em;
 }
 
+.card{
+	position: relative;
+	animation-duration: 2s;
+}
+
 .dadcont:hover{
 	transform: scale(1.02);
 	z-index: 2;
 	box-shadow: 1px 1px 10px 2px grey;
 }
 
+
+/*animations to make things appear*/
+
+@keyframes slide{
+	from{
+		right: 100%;
+	}
+
+	to{
+		right: 0%;
+	}
+}
+
+@keyframes slide-r{
+	from{
+		left: 100%;
+	}
+
+	to{
+		left: 0%;
+	}
+}

@@ -4,9 +4,7 @@
     document.body.append(highlight);
 
 
-
     function highlightLink() {
-
       const linkCoords = this.getBoundingClientRect();
       const coords = { // compensate for scrolling
         width: linkCoords.width,
@@ -19,4 +17,4 @@
       highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
     }
 
-    triggers.forEach(a => a.childNodes.length > 1?null:a.addEventListener('mouseenter', highlightLink));
+    triggers.forEach(a => a.childNodes.length > 1?null:a.addEventListener('mouseover', highlightLink));

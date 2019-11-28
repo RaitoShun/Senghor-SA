@@ -24,6 +24,19 @@
   position: relative;
   top: 35%;
   font-size: 1.1em;
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+/*This gives initial animations, cool but now you can break the nave way more, maybe simplify?*/
+@keyframes appear{ 
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
 }
 /*outline regulat text*/
 .outline-basic {
