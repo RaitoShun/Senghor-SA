@@ -29,7 +29,6 @@ a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    background-size: contain;
 }
 
 .curvy {
@@ -150,6 +149,6 @@ a{
 }
 
 /*resize rainbow text to a standard*/
-span.rainbow {
+h1 span.rainbow {
   font-size: 80px;
 }
