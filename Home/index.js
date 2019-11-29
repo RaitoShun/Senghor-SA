@@ -1,6 +1,6 @@
 const dadInfoR = document.querySelector('.right');
 const dadInfoL = document.querySelector('.left');
-const dadInfo = [dadInfoR,dadInfoL]
+const dadInfo = [dadInfoR,dadInfoL];
 
 let scroll = window.requestAnimationFrame ||
             function(callback){ window.setTimeout(callback, 1000/60)};  //Works like the debounce function for a monitor refresh rate of 60.

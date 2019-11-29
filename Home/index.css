@@ -49,9 +49,10 @@
 }
 
 .dad-info{
-  padding-top: 80px;
+  padding-top: 20px;
   height: 100%;
   font-size: 0.9em;
+  margin-bottom: 10px
 }
 
 
@@ -59,7 +60,7 @@
   position: relative;
   top: 20%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   opacity: 1;
   transition: 1s all ease-in;
 }
