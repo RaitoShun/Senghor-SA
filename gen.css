@@ -28,8 +28,8 @@ a{
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 3rem;
     font-weight: bold;
+    background-size: contain;
 }
 
 .curvy {
@@ -47,6 +47,33 @@ a{
   top: 0;
   left: 0;
   z-index: 4;
+}
+
+/*outline regulat text*/
+.outline-basic {
+  text-shadow:
+     -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+/*outline transparent text*/
+.outline {
+    color: black;
+    text-shadow:
+     -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000
+}
+
+@supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
+    .outline {
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    text-stroke: 2px black;
+        text-shadow: none;
+    }
 }
 
 .navbar .navbar-nav {
@@ -120,4 +147,9 @@ a{
 
 .shrink:hover{
   transform: scale(1.12);
+}
+
+/*resize rainbow text to a standard*/
+span.rainbow {
+  font-size: 80px;
 }
