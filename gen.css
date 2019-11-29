@@ -121,3 +121,14 @@ a{
 .shrink:hover{
   transform: scale(1.12);
 }
+
+.hidden-l{
+  opacity: 0 !important;
+  transform: translateX(-100%);
+
+}
+
+.hidden-r{
+  opacity: 0 !important;
+  transform: translateX(100%);
+}
