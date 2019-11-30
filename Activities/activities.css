@@ -28,7 +28,11 @@ body, html {
 	margin-top: 2em;
 }
 
+<<<<<<< HEAD
 #publicsector, #privatesector{
+=======
+#public-sector,#private-sector{
+>>>>>>> 2d7d21fe8e13fb87ab972407051ecb923d8d8c64
 	margin-top:2em;
 	margin-bottom:2em;
 }
