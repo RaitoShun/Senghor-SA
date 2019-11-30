@@ -7,8 +7,6 @@ body, html {
 	background: url("../Assets/daylight.jpg");
 	display:block;
     position:relative;
-    top: 10%;
-
 }
 
 .jumbotron h1{
