@@ -62,11 +62,12 @@ h1{
   margin-bottom: 10px;
   opacity: 1;
   transition: 1s all ease-in;
+  height: 50%;
 }
 
 .left img{
   position: relative;
-  top: 20%;
+  top: 50%;
 }
 
 .dad-info .right{
