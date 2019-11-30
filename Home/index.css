@@ -59,12 +59,16 @@ h1{
 
 
 .dad-info .left{
-  position: relative;
-  top: 20%;
   margin-top: 50px;
   margin-bottom: 10px;
   opacity: 1;
   transition: 1s all ease-in;
+  height: 100%;
+}
+
+.left img{
+  position: relative;
+  top: 20%;
 }
 
 .dad-info .right{
