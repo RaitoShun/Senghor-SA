@@ -28,9 +28,13 @@ body, html {
 	margin-top: 2em;
 }
 
-#publicsector,#privatesector{
+#publicsector, #privatesector{
 	margin-top:2em;
 	margin-bottom:2em;
+}
+
+.shaded-bg{
+	background-color: rgba(20,20,20,0.8);
 }
 
 
