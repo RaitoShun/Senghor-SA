@@ -12,4 +12,25 @@ body, html {
 	font-size: 5em;
 }
 
+.policy{
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+
+.tasks{
+	margin-top:6em;
+	margin-bottom:6em;
+}
+
+
+.carousel{
+	margin-top: 2em;
+}
+
+#publicsector,#privatesector{
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
 
