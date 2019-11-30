@@ -5,6 +5,10 @@ body, html {
 .jumbotron{
 	background: url("../Assets/summer.jpg");
 }
+/*the second jumbotron*/
+.services-sectors{
+	background: url("../Assets/sunset.jpg");
+}
 
 .jumbotron h1{
 	position: relative;
