@@ -47,4 +47,21 @@ body, html {
 	z-index: 1;
 }
 
+.general-procedure i::before{
+ 	font-size: 3em;
+}
+.general-procedure i{
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.spaced-out{
+	margin-top:5em;
+	margin-bottom:5em;
+}
+
+.new-section{
+	border-top: 1px solid black;
+	padding-top: 5em;
+}
 
