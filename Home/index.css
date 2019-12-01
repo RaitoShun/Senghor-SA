@@ -3,7 +3,7 @@
   height: 100% !important;
 }
 
-h1{
+h2{
   font-family: 'Montserrat',sans-serif;
 }
 
@@ -61,18 +61,21 @@ h1{
   margin-top: 50px;
   margin-bottom: 10px;
   opacity: 1;
-  transition: 1s all ease-in;
+  transition: .8s all ease-in;
   height: 50%;
 }
-
-.left img{
-  position: relative;
-  top: 50%;
+.dad-info .left img{
+  transition: 1s all;
 }
+
+.dad-info .left img:hover{
+  transform: scale(1.1);
+}
+
 
 .dad-info .right{
   margin-top: 50px;
-  transition: 1s all ease-in;
+  transition: .8s all ease-in;
 }
 
 /* parnters card */
@@ -95,6 +98,12 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 
+.fa-long-arrow-down{
+  font-size: 3em;
+  color: white;
+  position: relative;
+  top: 40%;
+}
 
 
 

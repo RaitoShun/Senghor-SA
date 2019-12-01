@@ -59,7 +59,7 @@ body, html {
 	animation-duration: 2s;
 }
 
-.dadcont:hover{
+.dad-contact:hover{
 	transform: scale(1.02);
 	z-index: 2;
 	box-shadow: 1px 1px 10px 2px grey;

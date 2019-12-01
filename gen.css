@@ -54,7 +54,7 @@ a{
   cursor: pointer;
   pointer-events: none;
   border-bottom: 2px solid black;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 5;
