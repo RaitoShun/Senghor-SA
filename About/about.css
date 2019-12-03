@@ -5,6 +5,15 @@ body, html {
 .jumbotron{
 	background: url("../Assets/cropland.jpg");
 }
+ 
+/* LIST #3 */
+#arrow-list {
+    text-align: left;
+}
+
+.fa-check-circle{
+	font-size: 400em;
+}
 
 .jumbotron h1{
 	position: relative;
@@ -25,5 +34,9 @@ body, html {
 .entice {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.card {
+	padding: 20px 20px 20px 20px;
 }
 
