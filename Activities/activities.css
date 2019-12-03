@@ -47,17 +47,10 @@ body, html {
 	z-index: 1;
 }
 
-.general-procedure i::before{
- 	font-size: 3em;
-}
-.general-procedure i{
-	margin-right: 2em;
-	margin-left: 2em;
-}
 
-.spaced-out{
-	margin-top:5em;
-	margin-bottom:5em;
+img.spaced-out{
+    width:100%; /* you can use % */
+    height: auto;
 }
 
 .new-section{
