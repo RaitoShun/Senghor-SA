@@ -48,18 +48,6 @@ a{
     transform: scale(1.02);
 }
 
-/*black line that follows links*/
-.highlight {
-  transition: all .2s;
-  cursor: pointer;
-  pointer-events: none;
-  border-bottom: 2px solid black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 5;
-}
-
 /*outline regulat text*/
 .outline-basic {
   text-shadow:
@@ -190,4 +178,25 @@ p{
 
 h1{
   font-family: 'Open Sans', sans-serif;
+}
+
+.hover-highlight{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-highlight:before {
+  content: "";
+  position: absolute;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: black;
+  height: 2px;
+  transition: 0.2s ease-in;
+}
+.hover-highlight:hover:before, .hover-highlight:focus:before, .hover-highlight:active:before {
+  left: 0;
+  right: 0;
 }
