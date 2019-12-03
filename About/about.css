@@ -6,15 +6,6 @@ body, html {
 	background: url("../Assets/cropland.jpg");
 }
  
-/* LIST #3 */
-#arrow-list {
-    text-align: left;
-}
-
-.fa-check-circle{
-	font-size: 400em;
-}
-
 .jumbotron h1{
 	position: relative;
 	top: 50%;
@@ -36,7 +27,15 @@ body, html {
 	padding-bottom: 30px;
 }
 
+/*give cards some padding*/
 .card {
-	padding: 20px 20px 20px 20px;
+	padding: 1em 1em 1em 1em;
 }
+
+.card:hover{
+	transform: scale(1.05);
+	z-index: 2;
+	box-shadow: 1px 1px 10px 2px grey;
+}
+
 
