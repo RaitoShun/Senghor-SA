@@ -15,11 +15,18 @@ body, html {
 	padding-bottom: 50px;
 }
 
+#products{
+	position: relative;
+	top: 50% !important;
+	font-size: 5em;
+}
+
 .jumbotron h1{
 	position: relative;
 	top: 30%;
 	font-size: 5em;
 }
+
 
 h2{
 	font-size: 4em;
@@ -36,10 +43,6 @@ h2{
 	margin-bottom:6em;
 }
 
-#products{
-	position: relative !important;
-	top: 50% !important;
-}
 
 .carousel{
 	margin-top: 2em;
