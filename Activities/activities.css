@@ -10,10 +10,19 @@ body, html {
 	background: url("../Assets/sunset.jpg");
 }
 
+.padded-top{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
 .jumbotron h1{
 	position: relative;
 	top: 30%;
 	font-size: 5em;
+}
+
+h2{
+	font-size: 4em;
 }
 
 .policy{
