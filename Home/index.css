@@ -25,20 +25,8 @@ h2{
 .text-elements{
   position: relative;
   top: 25%;
-  animation-name: appear;
-  animation-duration: 3s;
 }
 
-/*This gives initial animations, cool but now you can break the nave way more, maybe simplify?*/
-@keyframes appear{ 
-  from{
-    opacity: 0;
-  }
-
-  to{
-    opacity: 1;
-  }
-}
 
 /*dad's bio*/
 .color-dad-info{
@@ -95,12 +83,6 @@ h2{
   position: relative;
   top: 40%;
 }
-<<<<<<< HEAD
-
-/* Media Queries*/
-@media only screen and (max-width:407px){
-
-}
 
 
 
@@ -108,5 +90,7 @@ h2{
 
 
 
-=======
->>>>>>> 29f9d3a289e24dbe1d251604476ad1bd78d7b1e4
+
+
+
+
