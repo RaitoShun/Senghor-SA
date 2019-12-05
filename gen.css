@@ -9,6 +9,22 @@ body, html {
 a:hover{
   text-decoration: none;
 }
+/*initial animations*/
+.show-up{
+  animation-name: appear;
+  animation-duration: 2s;
+}
+
+/*This gives initial animations, cool but now you can break the nave way more, maybe simplify?*/
+@keyframes appear{ 
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
 
 .jumbotron {
 	height: 50%;
@@ -197,3 +213,75 @@ h1{
   left: 0;
   right: 0;
 }
+
+
+ /* Media Queries*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) { 
+    h1 span.rainbow {
+      font-size: 40px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p{
+      font-size: 10px;
+    }
+
+    .footer .fa{
+      font-size: 2em;
+      margin-left: 5px;
+      margin-right: 20px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: white;
+    }
+    .shrink{
+      margin-top: 15px;
+      width: 70px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 766px) { 
+    h1 span.rainbow {
+      font-size: 60px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p{
+      font-size: 12px;
+    }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    h1 span.rainbow {
+      font-size: 80px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    p{
+      font-size: 16px;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1 span.rainbow {
+      font-size: 95px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    p{
+      font-size: 22px;
+    }
+
+ }
+
+
+
