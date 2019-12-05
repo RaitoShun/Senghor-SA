@@ -6,7 +6,7 @@ body, html {
     overflow-x: hidden;
 }
 
-a{
+a:hover{
   text-decoration: none;
 }
 
@@ -153,9 +153,6 @@ a{
   background-color: black;
 }
 
-.shrink:hover{
-  transform: scale(1.12);
-}
 
 .hidden-l{
   opacity: 0 !important;
