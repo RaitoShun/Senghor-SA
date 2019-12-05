@@ -79,7 +79,10 @@ img.spaced-out{
 
 .card-header a{
 	text-decoration: none;
+	display: inline-block;
+	width: 100%;
 }
+
 
 
 .card-header a[data-toggle="collapse"]:after {
