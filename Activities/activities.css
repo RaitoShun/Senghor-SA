@@ -68,20 +68,24 @@ img.spaced-out{
 	z-index: 2;
 	box-shadow: 1px 1px 10px 2px grey;
 }
-.card-header a{
-	text-decoration: none;
-	color: b
-}
 
 .panel-collapse{
 	transition: .8s;
+}
+
+.card-header{
+	background: white !important;
+}
+
+.card-header a{
+	text-decoration: none;
 }
 
 
 .card-header a[data-toggle="collapse"]:after {
         content: "▲"; /* "play" icon */
         float: right;
-        color: #F58723;
+        color: cyan;
         font-size: 18px;
         line-height: 22px;
         /* rotate "play" icon from > (right arrow) to down arrow */
@@ -99,6 +103,6 @@ img.spaced-out{
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
-        color: #454444;
+        color: black;
 }
 
