@@ -61,7 +61,6 @@ img.spaced-out{
 /*give cards padding*/
 .card {
 	padding: 1em 1em 1em 1em;
-
 }
 
 .card:hover{
@@ -69,14 +68,17 @@ img.spaced-out{
 	z-index: 2;
 	box-shadow: 1px 1px 10px 2px grey;
 }
+.card-header a{
+	text-decoration: none;
+	color: black;
+}
+
+.panel-collapse{
+	transition: .8s;
+}
 
 
-.faqHeader {
-        font-size: 27px;
-        margin: 20px;
-    }
-
-    .panel-heading [data-toggle="collapse"]:after {
+.panel-heading [data-toggle="collapse"]:after {
         font-family: 'Glyphicons Halflings';
         content: "e072"; /* "play" icon */
         float: right;
@@ -89,9 +91,9 @@ img.spaced-out{
         -ms-transform: rotate(-90deg);
         -o-transform: rotate(-90deg);
         transform: rotate(-90deg);
-    }
+}
 
-    .panel-heading [data-toggle="collapse"].collapsed:after {
+.panel-heading [data-toggle="collapse"].collapsed:after {
         /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -99,5 +101,5 @@ img.spaced-out{
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
         color: #454444;
-    }
+}
 
