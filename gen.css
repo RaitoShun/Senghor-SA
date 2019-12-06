@@ -218,7 +218,7 @@ h1{
  /* Media Queries*/
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 300px) { 
+@media (min-width: 250px) { 
     .left,.right{
       float: none;
     }
@@ -317,7 +317,7 @@ h1{
         font-size: 15px;
     }
     p{
-      font-size: 12px;
+      font-size: 12px !important;
     }
     h2{
       font-size: 30px;
@@ -382,7 +382,7 @@ h1{
         font-size: 30px;
     }
     p{
-      font-size: 16px;
+      font-size: 14px !important;
     }
     h2{
       font-size: 45px;
@@ -401,7 +401,7 @@ h1{
         font-size: 30px;
     }
     p{
-      font-size: 14px;
+      /*font-size: 16px impor;*/
     }
     h2{
       font-size: 50px;
