@@ -219,12 +219,9 @@ h1{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 1px) { 
-<<<<<<< HEAD
-=======
     .left,.right{
       float: none;
     }
->>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
 
     .curvy{
       margin-top: 20px;
@@ -256,13 +253,9 @@ h1{
     }
 
     .color-dad-info{
-<<<<<<< HEAD
-      min-height: 200%;
-=======
       min-height: 100%;
       background: url(../Assets/boss-mobile.jpg);
       background-size: cover;
->>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
     }
 
     .dad-info .left{
