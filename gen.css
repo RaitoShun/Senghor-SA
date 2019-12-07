@@ -307,8 +307,8 @@ h1{
 
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 766px) {
+/* small-Medium devices (tablets, 768px and up)*/
+@media (min-width: 580px) {
     .left{
       float: left;
     }
@@ -342,6 +342,8 @@ h1{
 
     .dad-info .left img{
       max-height: 100%;
+      height: 60%;
+
     }
 
     .dad-info .right{
@@ -350,6 +352,84 @@ h1{
 
     .dad-info .right p{
       max-height: 100%;
+      line-height: 15px;
+    }
+
+    .footer .fa{
+      font-size: 3em;
+      margin-left: 20px;
+      margin-right: 40px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      color: white;
+    }
+
+    .fa-chevron-down{
+      top: 55%;
+    }
+
+    .cards{
+      height: 60%;
+      position:relative;
+      top: 7%;
+    }
+
+    .dad-contact{
+      margin: 0;
+    }
+
+    .table{
+     font-size: 1em;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 720px) {
+    .left{
+      float:left;
+    }
+    .right{
+      float: right;
+    }
+    .curvy{
+      margin-top: 70px;
+    } 
+    h1 span.rainbow {
+      font-size: 60px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p{
+      font-size: 12px !important;
+    }
+    h2{
+      font-size: 30px;
+    }
+
+    .color-dad-info{
+      min-height: 100%; 
+    }
+
+    .dad-info .left{
+      max-height: 100%;
+      height: 80%;
+    }
+
+    .dad-info .left img{
+      max-height: 100%;
+      height: 70%;
+
+    }
+
+    .dad-info .right{
+      max-height: 100%;
+    }
+
+    .dad-info .right p{
+      max-height: 100%;
+      line-height: 15px;
     }
 
     .footer .fa{
@@ -391,6 +471,10 @@ h1{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    .dad-info .right p{
+      max-height: 100%;
+      line-height: 20px;
+    }
     h1 span.rainbow {
       font-size: 80px;
     }
