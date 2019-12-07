@@ -219,12 +219,10 @@ h1{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 1px) { 
-<<<<<<< HEAD
-=======
+
     .left,.right{
       float: none;
     }
->>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
 
     .curvy{
       margin-top: 20px;
@@ -256,13 +254,10 @@ h1{
     }
 
     .color-dad-info{
-<<<<<<< HEAD
-      min-height: 200%;
-=======
-      min-height: 100%;
-      background: url(../Assets/boss-mobile.jpg);
+      background: rgba(50,50,50,0.9);
       background-size: cover;
->>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
+      margin-bottom: 20px;
+      overflow: inherit;
     }
 
     .dad-info .left{
@@ -274,11 +269,14 @@ h1{
     }
 
     .dad-info .right-mobile{
-      display: flex;
+      display: block;
       color: white;
       background: rgba(50,50,50,0.2);
     }
 
+    .dad-info .right-mobile p{
+      font-size: 0.8em !important;
+    }
   .fa-chevron-down{
     top: 40%;
   }
@@ -316,7 +314,12 @@ h1{
 
   .color-dad-info{
       min-height: 120%;
+      overflow: hidden;
       
+    }
+
+    .dad-info .right-mobile p{
+      font-size: 1em !important;
     }
 }
 
@@ -381,6 +384,7 @@ h1{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+
     .left{
       float:left;
     }
@@ -406,6 +410,7 @@ h1{
 
     .color-dad-info{
       background: lightgrey;
+      overflow: hidden;
     }
 
     .dad-info .left{
