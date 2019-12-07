@@ -253,17 +253,15 @@ h1{
     }
 
     .color-dad-info{
-      min-height: 200%; 
+      min-height: 120%;
     }
 
     .dad-info .left{
-      max-height: 25%;
-      height: 50%;
+      height: 25%;
     }
 
     .dad-info .left img{
-      max-height: 100%;
-      
+      height: 100%;
     }
 
     .dad-info .right{
@@ -304,6 +302,39 @@ h1{
     display: none;
   }
 
+}
+
+
+@media (min-width:576px) {
+
+  .color-dad-info{
+      min-height: 120%;
+      
+    }
+
+    .dad-info .left{
+      height: 90%;
+    }
+
+    .dad-info .left img{
+      height: 80%;
+    }
+
+    .dad-info .right{
+      max-height: 50%;
+    }
+
+    .dad-info .right p{
+      max-height: 100%;
+    }
+
+    .left{
+      float: left;
+    }
+
+    .right{
+      float: right;
+    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -395,7 +426,8 @@ h1{
 @media (min-width: 992px) { 
     .dad-info .right p{
       max-height: 100%;
-      line-height: 20px;
+      font-size: 1em;
+      line-height: 18px;
     }
     h1 span.rainbow {
       font-size: 80px;
