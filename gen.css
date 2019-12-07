@@ -219,6 +219,12 @@ h1{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 1px) { 
+<<<<<<< HEAD
+=======
+    .left,.right{
+      float: none;
+    }
+>>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
 
     .curvy{
       margin-top: 20px;
@@ -250,23 +256,27 @@ h1{
     }
 
     .color-dad-info{
+<<<<<<< HEAD
       min-height: 200%;
+=======
+      min-height: 100%;
+      background: url(../Assets/boss-mobile.jpg);
+      background-size: cover;
+>>>>>>> f090504c6583b0cb00331479d0f3a9da32b41f5a
     }
 
     .dad-info .left{
-      height: 25%;
-    }
-
-    .dad-info .left img{
-      height: 100%;
+      display: none
     }
 
     .dad-info .right{
-      max-height: 50%;
+      display: none;
     }
 
-    .dad-info .right p{
-      max-height: 100%;
+    .dad-info .right-mobile{
+      display: flex;
+      color: white;
+      background: rgba(50,50,50,0.2);
     }
 
   .fa-chevron-down{
@@ -308,40 +318,10 @@ h1{
       min-height: 120%;
       
     }
-
-    .dad-info .left{
-      height: 90%;
-    }
-
-    .dad-info .left img{
-      height: 50%;
-    }
-
-    .dad-info .right{
-      max-height: 50%;
-    }
-
-    .dad-info .right p{
-      max-height: 100%;
-    }
-
-    .left{
-      float: left;
-    }
-
-    .right{
-      float: right;
-    }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    .left{
-      float:left;
-    }
-    .right{
-      float: right;
-    }
     .curvy{
       margin-top: 70px;
     } 
@@ -360,26 +340,6 @@ h1{
 
     .color-dad-info{
       min-height: 100%; 
-    }
-
-    .dad-info .left{
-      max-height: 100%;
-      height: 80%;
-    }
-
-    .dad-info .left img{
-      max-height: 100%;
-      height: 80%;
-
-    }
-
-    .dad-info .right{
-      max-height: 100%;
-    }
-
-    .dad-info .right p{
-      max-height: 100%;
-      line-height: 15px;
     }
 
     .footer .fa{
@@ -421,6 +381,37 @@ h1{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+    .left{
+      float:left;
+    }
+    .right{
+      float: right;
+    }
+
+    .dad-info .right-mobile{
+      display: none;
+    }
+
+    .dad-info .right{
+      display: block;
+    }
+
+    .dad-info .left{
+      display: block;
+    }
+
+    .dad-info .left img{
+      height: 80%;
+    }
+
+    .color-dad-info{
+      background: lightgrey;
+    }
+
+    .dad-info .left{
+      max-height: 100%;
+      height: 80%;
+    }
     .dad-info .right p{
       max-height: 100%;
       font-size: 1em;
@@ -446,7 +437,7 @@ h1{
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
     h1 span.rainbow {
-      font-size: 95px;
+      font-size: 85px;
     }
     h4 {
         font-size: 30px;
