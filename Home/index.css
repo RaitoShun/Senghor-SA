@@ -76,11 +76,10 @@ h2{
   margin-top: 2em; 
 }
 
-.fa-chevron-down{
+#dad-information{
   font-size: 3em;
-  color: white;
   position: relative;
-  top: 40%;
+  top: 90%;
 }
 
 
