@@ -219,6 +219,7 @@ h1{
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 1px) { 
+
     .left,.right{
       float: none;
     }
@@ -274,7 +275,7 @@ h1{
     }
 
     .dad-info .right-mobile p{
-      font-size: 0.6em !important;
+      font-size: 0.8em !important;
     }
   .fa-chevron-down{
     top: 40%;
@@ -313,6 +314,7 @@ h1{
 
   .color-dad-info{
       min-height: 120%;
+      overflow: hidden;
       
     }
 
@@ -382,6 +384,7 @@ h1{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
+
     .left{
       float:left;
     }
@@ -407,6 +410,7 @@ h1{
 
     .color-dad-info{
       background: lightgrey;
+      overflow: hidden;
     }
 
     .dad-info .left{
