@@ -297,6 +297,14 @@ h1{
       font-size: 1em;
   }
 
+  .mobile-tasks{
+      display: block;
+  }
+
+  .tasks{
+    display: none;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -369,6 +377,14 @@ h1{
 
     .table{
      font-size: 1em;
+    }
+
+    .mobile-tasks{
+      display: none;
+    }
+
+    .tasks{
+      display: initial;
     }
 
  }
