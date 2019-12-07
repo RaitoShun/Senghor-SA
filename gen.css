@@ -253,9 +253,7 @@ h1{
     }
 
     .color-dad-info{
-      min-height: 200%;
-
-      
+      min-height: 200%; 
     }
 
     .dad-info .left{
@@ -423,9 +421,6 @@ h1{
     }
     h4 {
         font-size: 30px;
-    }
-    p{
-      /*font-size: 16px impor;*/
     }
     h2{
       font-size: 50px;
