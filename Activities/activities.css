@@ -15,9 +15,9 @@ body, html {
 	padding-bottom: 50px;
 }
 
-#products{
+h1#products{
 	position: relative;
-	top: 50% !important;
+	top: 50%;
 	font-size: 5em;
 }
 
@@ -123,5 +123,27 @@ img.spaced-out{
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
         color: black;
+}
+
+@media (min-width: 1px) {
+	.mobile-tasks{display: block;}
+	.tasks{display: none;}
+	.table{font-size: 0.8em;}
+  
+}
+
+@media (min-width: 768px) {
+	.table{
+    	font-size: 1em;
+    }
+
+    .mobile-tasks{
+      	display: none;
+    }
+
+    .tasks{
+      	display: initial;
+    }
+
 }
 

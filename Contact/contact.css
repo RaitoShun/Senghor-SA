@@ -15,10 +15,10 @@ body, html {
 	font-size: 5em;
 }
 
-.intro{
-	background: black !important;
+header.jumbotron.intro{
+	background: black;
 	color: white;
-	height: 20% !important;
+	height: 20%;
 	position: relative;
 	animation-name: slide;
 	animation-duration: 1s;
@@ -50,9 +50,9 @@ body, html {
 
 /*container for both cards*/
 .cards{
-	height: 60%;
-	position:relative;
-	top: 7%;
+	margin-bottom: 20px;
+	height: 100%;
+	margin-top: 50px;
 }
 
 .card{
@@ -66,25 +66,56 @@ body, html {
 
 }
 
-
 /*animations to make things appear*/
-
 @keyframes slide{
 	from{
-		right: 100%;
+		transform: translateX(-100%);
 	}
 
 	to{
-		right: 0%;
+		transform: translateX(0%);
 	}
 }
 
 @keyframes slide-r{
 	from{
-		left: 100%;
+		transform: translateX(100%);
 	}
 
 	to{
-		left: 0%;
+		transform: translateX(0%);
+	}
+}
+
+@media (min-width: 1px) { 
+.cards{
+    height: auto;
+  }
+
+  div.manual.card.right{
+	  max-width: 100%;
+  }
+
+  .dad-contact{
+	  margin-top: 50px;
+	  max-width: 100%;
+	}
+}
+
+@media (min-width: 1000px) {
+    .dad-contact{
+      margin: 0;
+	}
+	
+	div.manual.card.right{
+	  max-width: 66.666667%;
+	  float: right;
+  	}
+
+  .dad-contact{
+	  margin-top: 50px;
+	  max-width: 33.333333%;
+	  float: left;
+	  margin-top: 0;
 	}
 }
