@@ -240,6 +240,10 @@ h1{
     h2{
       font-size: 25px;
     }
+    .jumbotron {
+	    height: 70%;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up)*/

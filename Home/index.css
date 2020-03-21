@@ -12,6 +12,11 @@ main.jumbotron.mainpage.text-center{
   top: 20%;
 }
 
+i.fa-chevron-down{
+  color:white;
+}
+
+
 section.color-dad-info{
     height: auto;
     background-color: white;
@@ -91,7 +96,7 @@ section.color-dad-info{
       height: 500px;
     }
 
-  .fa-chevron-down{top: 40%;}
+  .fa-chevron-down{top: 30%;}
 }
 
 

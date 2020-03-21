@@ -27,11 +27,6 @@ h1#products{
 	font-size: 5em;
 }
 
-
-h2{
-	font-size: 4em;
-}
-
 .policy{
 	margin-top:2em;
 	margin-bottom:2em;
@@ -74,11 +69,7 @@ img.spaced-out{
 	padding-top: 5em;
 }
 
-/*give cards padding*/
-.card {
-	padding: 1em 1em 1em 1em;
-}
-
+.card {padding: 1em 1em 1em 1em;}
 .card:hover{
 	transform: scale(1.05);
 	z-index: 2;
@@ -86,13 +77,10 @@ img.spaced-out{
 }
 
 .panel-collapse{
-	transition: .8s;
+	transition: .2s;
 }
 
-.card-header{
-	background: white !important;
-}
-
+.card-header{background: white !important;}
 .card-header a{
 	text-decoration: none;
 	display: inline-block;
@@ -116,7 +104,6 @@ img.spaced-out{
 }
 
 .card-header a[data-toggle="collapse"].collapsed:after {
-        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);

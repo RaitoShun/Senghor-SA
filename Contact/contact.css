@@ -100,6 +100,9 @@ header.jumbotron.intro{
 	  margin-top: 50px;
 	  max-width: 100%;
 	}
+	header.jumbotron.intro{
+	height: 15%;
+	}
 }
 
 @media (min-width: 1000px) {
